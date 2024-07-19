@@ -20,12 +20,12 @@ y = iris.target
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 # Define the parameters for the RandomForestClassifier
-max_depth = 5
+max_depth = 10
 n_estimators = 100
 
 # Apply mlflow
-mlflow.set_experiment('iris_dt')
-with mlflow.start_run(run_name="CampusX_exp"):
+mlflow.set_experiment('iris_rf')
+with mlflow.start_run(run_name="Team_exp"):
     rf = RandomForestClassifier(max_depth=max_depth)
     rf.fit(X_train, y_train)
     y_pred = rf.predict(X_test)
