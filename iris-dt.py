@@ -5,7 +5,11 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, confusion_matrix
 import matplotlib.pyplot as plt
 import seaborn as sns
-mlflow.set_tracking_uri("http://127.0.0.1:5000")
+
+import dagshub
+dagshub.init(repo_owner='write2shivamgithub', repo_name='mlflow-dagshub-demo', mlflow=True)
+
+mlflow.set_tracking_uri("https://dagshub.com/write2shivamgithub/mlflow-dagshub-demo.mlflow")
 
 # Load the iris dataset
 iris = load_iris()
