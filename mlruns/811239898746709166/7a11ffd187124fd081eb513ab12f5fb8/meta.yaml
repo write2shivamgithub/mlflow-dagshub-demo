@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/CampusX/RoughMlopsClone/mlflow-dagshub-demo/mlruns/811239898746709166/7a11ffd187124fd081eb513ab12f5fb8/artifacts
+end_time: 1721519507623
+entry_point_name: ''
+experiment_id: '811239898746709166'
+lifecycle_stage: active
+run_id: 7a11ffd187124fd081eb513ab12f5fb8
+run_name: melodic-sloth-323
+run_uuid: 7a11ffd187124fd081eb513ab12f5fb8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721519494331
+status: 4
+tags: []
+user_id: LENOVO

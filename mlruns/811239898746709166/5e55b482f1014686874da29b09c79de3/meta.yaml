@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/CampusX/RoughMlopsClone/mlflow-dagshub-demo/mlruns/811239898746709166/5e55b482f1014686874da29b09c79de3/artifacts
+end_time: 1721519604185
+entry_point_name: ''
+experiment_id: '811239898746709166'
+lifecycle_stage: active
+run_id: 5e55b482f1014686874da29b09c79de3
+run_name: upset-stoat-147
+run_uuid: 5e55b482f1014686874da29b09c79de3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721519590729
+status: 4
+tags: []
+user_id: LENOVO
